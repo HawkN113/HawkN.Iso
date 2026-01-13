@@ -1,4 +1,5 @@
 # HawkN.Iso
+`HawkN.Iso` exists to eliminate string-based representations of international standards from business logic.
 
 [![NuGet Trusted Publishing](https://img.shields.io/badge/NuGet-Trusted_Publishing-blue?logo=nuget&logoColor=white&style=flat-square)](https://learn.microsoft.com/en-us/nuget/nuget-org/trusted-publishing)
 [![GitHub license](https://img.shields.io/badge/license-MIT-green.svg?label=License&style=flat-square)](LICENSE)
@@ -41,7 +42,7 @@ This is a **reference layer** designed to eliminate string-based, error-prone re
 
 | Module                                                                                                                                                                                                                                                                                                                                                                                | Standard | Description | Project link                                                           |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|------------|------------------------------------------------------------------------|
-| [![NuGet](https://img.shields.io/nuget/v/HawkN.Iso.Countries?label=HawkN.Iso.Countries&color=blue&style=flat-square)](https://www.nuget.org/packages/HawkN.Iso.Countries/)[![Downloads](https://img.shields.io/nuget/dt/HawkN.Iso.Countries?label=&logo=nuget&color=brightgreen&style=flat-square&cacheSeconds=3600)](https://www.nuget.org/packages/HawkN.Iso.Countries/)            | ISO 3166 | Strongly-typed country definitions | [HawkN.Iso.Countries](https://github.com/HawkN113/HawkN.Iso.Countries) |
+| [![NuGet](https://img.shields.io/nuget/v/HawkN.Iso.Countries?label=HawkN.Iso.Countries&color=blue&style=flat-square)](https://www.nuget.org/packages/HawkN.Iso.Countries/)[![Downloads](https://img.shields.io/nuget/dt/HawkN.Iso.Countries?label=&logo=nuget&color=brightgreen&style=flat-square&cacheSeconds=3600)](https://www.nuget.org/packages/HawkN.Iso.Countries/)            | ISO 3166 | Compile-time safe ISO 3166 country representations for business logic | [HawkN.Iso.Countries](https://github.com/HawkN113/HawkN.Iso.Countries) |
 | [![NuGet](https://img.shields.io/nuget/v/HawkN.Iso.Currencies?label=HawkN.Iso.Currencies&color=blue&style=flat-square)](https://www.nuget.org/packages/HawkN.Iso.Currencies/)[![Downloads](https://img.shields.io/nuget/dt/HawkN.Iso.Currencies?label=&logo=nuget&color=brightgreen&style=flat-square&cacheSeconds=3600)](https://www.nuget.org/packages/HawkN.Iso.Currencies/)       | ISO 4217 | Strongly-typed currency definitions | [HawkN.Iso.Currencies](https://github.com/HawkN113/HawkN.Iso.Currencies)                                                                     |
 | [![NuGet](https://img.shields.io/nuget/v/HawkN.Iso.Countries.Currencies?label=HawkN.Iso.Countries&color=blue&style=flat-square)](https://www.nuget.org/packages/HawkN.Iso.Countries.Currencies/)[![Downloads](https://img.shields.io/nuget/dt/HawkN.Iso.Countries.Currencies?label=&logo=nuget&color=brightgreen&style=flat-square&cacheSeconds=3600)](https://www.nuget.org/packages/HawkN.Iso.Countries.Currencies/) | CLDR | Canonical country → currency mapping | [HawkN.Iso.Countries](https://github.com/HawkN113/HawkN.Iso.Countries)                                                                     |
 
@@ -146,6 +147,8 @@ If a value is defined by an international standard, it should be:
 Planned and potential modules:
 - `HawkN.Iso.Languages` — ISO 639
 - `HawkN.Iso.Regions` — UN M.49
+
+The roadmap is intentionally conservative to preserve long-term API stability.
 
 ---
 
