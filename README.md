@@ -53,8 +53,8 @@ Each module is versioned independently and can be used standalone.
 ## 🧩 Example
 
 ### Registration
-Use extension method `.AddCountryCodeService();` for countries
-Use extension method `.AddCurrencyService();` for currencies
+- Use extension method `.AddCountryCodeService();` for countries
+- Use extension method `.AddCurrencyService();` for currencies
 ```csharp
 using var host = Host.CreateDefaultBuilder(args)
     .ConfigureServices(services =>
